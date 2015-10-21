@@ -1,6 +1,11 @@
 public class Ticket
-
-  public Ticket(String userName, String type, Double price,
+  String UserName;
+  String Type;
+  double Price;
+  int Row;
+  char Column;
+  Object Plane; 
+  public Ticket(String userName, String type, double price,
                 int row, char column, Object plane){
     
   
